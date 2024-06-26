@@ -1,5 +1,7 @@
 # xls2influxlineprotocol
 
+Program to open a Excel file using pandas and create a output file to be source in InfluxDB.
+
 ## Requirements
 
 ```
@@ -17,10 +19,10 @@ pip install -r requirements.txt
 5. Run with `python main.py` inside the venv.
 6. Access your InfluxDB and import the txt file setting up the timing precision (ex. nanoseconds)
 
-## Reference
+## References
 
-https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html
-https://docs.influxdata.com/influxdb/v2/reference/syntax/line-protocol/
+1. https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html
+2. https://docs.influxdata.com/influxdb/v2/reference/syntax/line-protocol/
 
 ## Author
 
