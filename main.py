@@ -3,7 +3,7 @@ import warnings, math
 
 calc_diff = False
 
-file_path = "/mnt/d/Users/almir/Downloads/HMV3723_BATILANE_Sensores_13-05-2024_23-02-07.xlsx"
+file_path = "/mnt/d/Users/almir/Downloads/input_file.xlsx"
 
 '''
 col_names = ['num', 'time', 'gps', 'location', 'ign', 'din1', 'speed', 'fuel_level', \
